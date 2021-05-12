@@ -1,5 +1,9 @@
 import csv
 import matplotlib.pyplot as plt
+
+'''I use sys in order to find the files of EDIBLES code in ordrer to run this code
+I'm a windows user, change the path written here by your own path (where the EDIBLES
+code is saved). If you're using Linux ou Mac you can erase the two following lines'''
 import sys
 sys.path.insert(1,"/Users/Samuel/Desktop/Programs/ImportGithub")
 
