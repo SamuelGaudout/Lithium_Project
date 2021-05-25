@@ -35,25 +35,25 @@ for l in List1:
     List.append(p)
 print(List)
 
-# for filename in List:
-#     sp = edibles_oracle.EdiblesSpectrum(filename)
-#     #plt.figure()
-#     # plt.title(filename)
-#     plt.xlabel("Wavelength (" + r"$\AA$" + ")")
-#     plt.xlim(wave-5, wave+10)
-#     plt.ylim(-1000, 10000)
-#     #plt.plot(sp.wave, sp.flux, label=filename)
-#     plt.plot(sp.wave, sp.flux)
-#     print(sp.flux)
-#     plt.show()
-#     #plt.legend()
+for filename in List:
+    sp = edibles_oracle.EdiblesSpectrum(filename)
+    #plt.figure()
+    # plt.title(filename)
+    plt.xlabel("Wavelength (" + r"$\AA$" + ")")
+    plt.xlim(wave-5, wave+10)
+    plt.ylim(-1000, 10000)
+    plt.plot(sp.wave, sp.flux, label=filename)
+    #plt.plot(sp.wave, sp.flux)
+    print(sp.flux)
+    plt.show()
+    plt.legend()
         
 #############################################################################
 'Normalize'
 
 L1=[List[0],List[1],List[11]]
 #L1=[List[12]]
-
+plt.figure()
 for filename in L1:
     sp = edibles_oracle.EdiblesSpectrum(filename)
     fluxN=[]
@@ -66,7 +66,7 @@ for filename in L1:
     #print(fluxN)
     plt.xlabel("Wavelength (" + r"$\AA$" + ")")
     plt.plot(sp.wave, fluxN, label=filename)
-    
+
 plt.axvline(x=6707.95)
 plt.show()
 plt.legend()   

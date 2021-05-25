@@ -1,0 +1,15 @@
+File,Velocity,shift
+
+HD63804,37.5,red
+HD147084,7.4,red
+HD147933,0.644,blue
+HD147889,19,red
+HD148184,11.7,red
+HD154368,4,red
+HD161056,7.9,blue
+HD169454,10.1,red
+HD185859,8.4,red
+HD186745,3.7,red
+HD186841,3.7,red
+
+
