@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 12 14:35:44 2021
-
-@author: Samuel
-"""
 import csv
 import matplotlib.pyplot as plt
 
