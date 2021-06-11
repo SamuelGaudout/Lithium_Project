@@ -36,6 +36,28 @@ def velocity_calculation(object,Wave):
     else :
         u=c*(1-(Wave/Lobs))        
         shift='Red shift'
-    return('Velocity in km/s :', u*1e-3, shift) 
+    return 'Velocity in km/s :', u*1e-3, shift
 
-print(velocity_calculation(object=['HD 303308'], Wave=3302.37))
+
+
+v1=velocity_calculation(object=['HD 303308'], Wave=3302.37)
+
+print(v1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
